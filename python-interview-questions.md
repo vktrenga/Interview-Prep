@@ -8,7 +8,7 @@ This document contains a curated list of Python interview questions, covering a 
 | Basics            | [Go to Basics](#basics)                      |
 | Intermediate      | [Go to All Intermediate Questions](#all-intermediate-questions) |
 | Advanced          | [Go to Advanced Topics](#advanced-topics)    |
-| Coding Challenges | [Go to Coding Challenges](#coding-challenges)|
+| Coding Challenges | [Go to Coding Challenges](#code-challenges)|
 
 ---
 
@@ -2538,8 +2538,8 @@ print(hasattr(t,'y'))  # False
 
 
 ---
-
-## **Challenge 1: Reverse a string**
+## Coding Challenges
+### **Challenge 1: Reverse a string**
 
 **Problem:** Write a function that reverses a string without using the built-in `reversed()` function.
 
@@ -2570,7 +2570,7 @@ print(reverse_string_loop("Python"))  # nohtyP
 
 ---
 
-## **Challenge 2: Check for palindrome**
+### **Challenge 2: Check for palindrome**
 
 **Problem:** Write a function to check if a string is a palindrome.
 
@@ -2604,7 +2604,7 @@ def is_palindrome_two_pointer(s):
 
 ---
 
-## **Challenge 3: Find factorial**
+### **Challenge 3: Find factorial**
 
 **Problem:** Write a function to calculate factorial of a number.
 
@@ -2635,7 +2635,7 @@ def factorial_iter(n):
 
 ---
 
-## **Challenge 4: Fibonacci sequence**
+### **Challenge 4: Fibonacci sequence**
 
 **Problem:** Generate first `n` Fibonacci numbers.
 
@@ -2659,7 +2659,7 @@ print(fibonacci(10))  # [0,1,1,2,3,5,8,13,21,34]
 
 ---
 
-## **Challenge 5: Count vowels in a string**
+### **Challenge 5: Count vowels in a string**
 
 **Problem:** Count the number of vowels in a string.
 
@@ -2678,7 +2678,7 @@ print(count_vowels("Hello World"))  # 3
 
 ---
 
-## **Challenge 6: Find the largest element in a list**
+### **Challenge 6: Find the largest element in a list**
 
 **Problem:** Find the maximum value in a list without using `max()`.
 
@@ -2704,7 +2704,7 @@ print(find_max([3, 5, 2, 9, 1]))  # 9
 
 ---
 
-## **Challenge 7: Check if a number is prime**
+### **Challenge 7: Check if a number is prime**
 
 **Problem:** Write a function to check if a number is prime.
 
@@ -2728,7 +2728,7 @@ print(is_prime(15))  # False
 
 ---
 
-## **Challenge 8: Remove duplicates from a list**
+### **Challenge 8: Remove duplicates from a list**
 
 **Problem:** Remove duplicates while preserving order.
 
@@ -2759,7 +2759,7 @@ def remove_duplicates_one_liner(lst):
 
 ---
 
-## **Challenge 9: Find common elements in two lists**
+### **Challenge 9: Find common elements in two lists**
 
 **Problem:** Return the intersection of two lists.
 
@@ -2785,7 +2785,7 @@ def common_elements_ordered(lst1, lst2):
 
 ---
 
-## **Challenge 10: Flatten a nested list**
+### **Challenge 10: Flatten a nested list**
 
 **Problem:** Flatten a list of lists into a single list.
 
@@ -2811,7 +2811,7 @@ print(flatten(nested))  # [1,2,3,4,5,6]
 
 
 
-## **Challenge 11: Count the frequency of elements in a list**
+### **Challenge 11: Count the frequency of elements in a list**
 
 **Problem:** Write a function to count how many times each element appears in a list.
 
@@ -2842,7 +2842,7 @@ def count_frequency_manual(lst):
 
 ---
 
-## **Challenge 12: Merge two dictionaries**
+### **Challenge 12: Merge two dictionaries**
 
 **Problem:** Merge two dictionaries into one.
 
@@ -2869,7 +2869,7 @@ d1.update(d2)
 
 ---
 
-## **Challenge 13: Transpose a matrix**
+### **Challenge 13: Transpose a matrix**
 
 **Problem:** Transpose a 2D matrix (swap rows and columns).
 
@@ -2889,7 +2889,7 @@ print(transpose(mat))  # [[1,4],[2,5],[3,6]]
 
 ---
 
-## **Challenge 14: Find second largest element in a list**
+### **Challenge 14: Find second largest element in a list**
 
 **Problem:** Return the second largest number.
 
@@ -2926,7 +2926,7 @@ def second_largest_single_pass(lst):
 
 ---
 
-## **Challenge 15: Check if two strings are anagrams**
+### **Challenge 15: Check if two strings are anagrams**
 
 **Problem:** Determine if two strings have the same characters with the same counts.
 
@@ -2948,7 +2948,7 @@ print(are_anagrams("hello", "world"))    # False
 
 ---
 
-## **Challenge 16: Remove all vowels from a string**
+### **Challenge 16: Remove all vowels from a string**
 
 ```python
 def remove_vowels(s):
@@ -2965,7 +2965,7 @@ print(remove_vowels("Python Programming"))  # Pythn Prgrmmng
 
 ---
 
-## **Challenge 17: Find the missing number in a list of 1 to n**
+### **Challenge 17: Find the missing number in a list of 1 to n**
 
 **Problem:** List contains numbers from 1 to n with one missing.
 
@@ -2985,7 +2985,7 @@ print(find_missing_number([1,2,4,5], 5))  # 3
 
 ---
 
-## **Challenge 18: Find duplicates in a list**
+### **Challenge 18: Find duplicates in a list**
 
 ```python
 def find_duplicates(lst):
@@ -3009,7 +3009,7 @@ print(find_duplicates([1,2,3,2,4,1]))  # [1,2]
 
 ---
 
-## **Challenge 19: Rotate a list by k positions**
+### **Challenge 19: Rotate a list by k positions**
 
 ```python
 def rotate_list(lst, k):
@@ -3027,7 +3027,7 @@ print(rotate_list([1,2,3,4,5], 2))  # [4,5,1,2,3]
 
 ---
 
-## **Challenge 20: Check if a list is sorted**
+### **Challenge 20: Check if a list is sorted**
 
 ```python
 def is_sorted(lst):
@@ -3043,7 +3043,7 @@ print(is_sorted([1,3,2]))    # False
 * Avoids creating extra lists
 * Useful in **validation and optimization problems**
 
-## **Challenge 21: Reverse words in a string**
+### **Challenge 21: Reverse words in a string**
 
 **Problem:** Reverse the order of words in a sentence without reversing the words themselves.
 
@@ -3064,7 +3064,7 @@ print(reverse_words("Python is fun"))  # fun is Python
 
 ---
 
-## **Challenge 22: Merge two sorted lists**
+### **Challenge 22: Merge two sorted lists**
 
 **Problem:** Merge two sorted lists into a single sorted list.
 
@@ -3094,7 +3094,7 @@ print(merge_sorted_lists([1,3,5],[2,4,6]))  # [1,2,3,4,5,6]
 
 ---
 
-## **Challenge 23: Find the missing elements in a list**
+### **Challenge 23: Find the missing elements in a list**
 
 **Problem:** Given two lists, find elements present in the first but missing in the second.
 
@@ -3118,7 +3118,7 @@ def find_missing_ordered(lst1, lst2):
 
 ---
 
-## **Challenge 24: Count words in a string**
+### **Challenge 24: Count words in a string**
 
 ```python
 def count_words(sentence):
@@ -3144,7 +3144,7 @@ def count_words_regex(sentence):
 
 ---
 
-## **Challenge 25: Find all prime numbers up to n**
+### **Challenge 25: Find all prime numbers up to n**
 
 ```python
 def primes_upto_n(n):
@@ -3168,7 +3168,7 @@ print(primes_upto_n(10))  # [2,3,5,7]
 
 ---
 
-## **Challenge 26: Fibonacci using recursion**
+### **Challenge 26: Fibonacci using recursion**
 
 ```python
 def fibonacci_recursive(n):
@@ -3197,7 +3197,7 @@ def fibonacci_memo(n):
 
 ---
 
-## **Challenge 27: Flatten a dictionary**
+### **Challenge 27: Flatten a dictionary**
 
 **Problem:** Convert nested dictionaries into a flat dictionary with compound keys.
 
@@ -3224,7 +3224,7 @@ print(flatten_dict(nested))  # {'a':1,'b.c':2,'b.d':3}
 
 ---
 
-## **Challenge 28: Check balanced parentheses**
+### **Challenge 28: Check balanced parentheses**
 
 ```python
 def is_balanced(expr):
@@ -3250,7 +3250,7 @@ print(is_balanced("({[})"))   # False
 
 ---
 
-## **Challenge 29: Find the most frequent element in a list**
+### **Challenge 29: Find the most frequent element in a list**
 
 ```python
 from collections import Counter
@@ -3270,7 +3270,7 @@ print(most_frequent([1,2,2,3,3,3]))  # 3
 
 ---
 
-## **Challenge 30: Check if a list is a subset of another list**
+### **Challenge 30: Check if a list is a subset of another list**
 
 ```python
 def is_subset(lst1, lst2):
@@ -3288,7 +3288,7 @@ print(is_subset([1,4],[1,2,3]))  # False
 
 
 
-## **Challenge 31: Find all subsets of a list**
+### **Challenge 31: Find all subsets of a list**
 
 **Problem:** Generate all possible subsets (power set) of a list.
 
@@ -3312,7 +3312,7 @@ print(subsets([1,2,3]))
 
 ---
 
-## **Challenge 32: Implement binary search**
+### **Challenge 32: Implement binary search**
 
 **Problem:** Search a number in a sorted list efficiently.
 
@@ -3340,7 +3340,7 @@ print(binary_search([1,2,3,4,5], 3))  # 2
 
 ---
 
-## **Challenge 33: Find longest word in a string**
+### **Challenge 33: Find longest word in a string**
 
 ```python
 def longest_word(s):
@@ -3358,7 +3358,7 @@ print(longest_word("Python coding challenges are fun"))  # challenges
 
 ---
 
-## **Challenge 34: Sum all numbers in a nested list**
+### **Challenge 34: Sum all numbers in a nested list**
 
 ```python
 def sum_nested(lst):
@@ -3381,7 +3381,7 @@ print(sum_nested(nested))  # 21
 
 ---
 
-## **Challenge 35: Count occurrences of a substring**
+### **Challenge 35: Count occurrences of a substring**
 
 ```python
 def count_substring(s, sub):
@@ -3405,7 +3405,7 @@ print(count_overlapping("ababa", "aba"))  # 2
 
 ---
 
-## **Challenge 36: Find common keys in two dictionaries**
+### **Challenge 36: Find common keys in two dictionaries**
 
 ```python
 def common_keys(d1, d2):
@@ -3423,7 +3423,7 @@ print(common_keys(d1,d2))  # ['b']
 
 ---
 
-## **Challenge 37: Sort a dictionary by values**
+### **Challenge 37: Sort a dictionary by values**
 
 ```python
 def sort_dict_by_value(d):
@@ -3441,7 +3441,7 @@ print(sort_dict_by_value(d))  # {'b':1,'c':2,'a':3}
 
 ---
 
-## **Challenge 38: Find first non-repeating character**
+### **Challenge 38: Find first non-repeating character**
 
 ```python
 from collections import Counter
@@ -3463,7 +3463,7 @@ print(first_non_repeating("swiss"))  # w
 
 ---
 
-## **Challenge 39: Implement a simple stack**
+### **Challenge 39: Implement a simple stack**
 
 ```python
 class Stack:
@@ -3492,7 +3492,7 @@ print(stack.pop())  # 2
 
 ---
 
-## **Challenge 40: Implement a queue using list**
+### **Challenge 40: Implement a queue using list**
 
 ```python
 class Queue:
@@ -3517,7 +3517,7 @@ print(q.dequeue())  # 1
 * `pop(0)` removes first element (O(n) → for large scale, use `collections.deque`)
 * Common in **task scheduling and buffering**
 
-## **Challenge 41: Remove duplicates from a string**
+### **Challenge 41: Remove duplicates from a string**
 
 **Problem:** Remove duplicate characters while maintaining order.
 
@@ -3543,7 +3543,7 @@ print(remove_duplicates_string("banana"))  # "ban"
 
 ---
 
-## **Challenge 42: Find the intersection of multiple lists**
+### **Challenge 42: Find the intersection of multiple lists**
 
 ```python
 def intersect_lists(*lists):
@@ -3562,7 +3562,7 @@ print(intersect_lists([1,2,3],[2,3,4],[3,5]))  # [3]
 
 ---
 
-## **Challenge 43: Count the number of digits in a number**
+### **Challenge 43: Count the number of digits in a number**
 
 ```python
 def count_digits(n):
@@ -3592,7 +3592,7 @@ def count_digits_math(n):
 
 ---
 
-## **Challenge 44: Find the missing numbers in a range**
+### **Challenge 44: Find the missing numbers in a range**
 
 **Problem:** Given a list and a range 1..n, find all missing numbers.
 
@@ -3617,7 +3617,7 @@ def missing_numbers_set(lst, n):
 
 ---
 
-## **Challenge 45: Check if a string is a pangram**
+### **Challenge 45: Check if a string is a pangram**
 
 **Problem:** A pangram contains all letters of the alphabet at least once.
 
@@ -3639,7 +3639,7 @@ print(is_pangram("Python coding"))  # False
 
 ---
 
-## **Challenge 46: Find the second most frequent element**
+### **Challenge 46: Find the second most frequent element**
 
 ```python
 from collections import Counter
@@ -3662,7 +3662,7 @@ print(second_most_frequent([1,2,2,3,3,3]))  # 2
 
 ---
 
-## **Challenge 47: Rotate a matrix 90 degrees clockwise**
+### **Challenge 47: Rotate a matrix 90 degrees clockwise**
 
 ```python
 def rotate_matrix(matrix):
@@ -3682,7 +3682,7 @@ print(rotate_matrix(mat))
 
 ---
 
-## **Challenge 48: Implement a simple calculator**
+### **Challenge 48: Implement a simple calculator**
 
 ```python
 def calculator(a, b, operation):
@@ -3709,7 +3709,7 @@ print(calculator(5,0,"div"))  # None
 
 ---
 
-## **Challenge 49: Find the longest increasing subsequence**
+### **Challenge 49: Find the longest increasing subsequence**
 
 ```python
 def longest_increasing_subseq(lst):
@@ -3734,7 +3734,7 @@ print(longest_increasing_subseq([10,9,2,5,3,7,101,18]))  # 4
 
 ---
 
-## **Challenge 50: Count frequency of words in a paragraph**
+### **Challenge 50: Count frequency of words in a paragraph**
 
 ```python
 from collections import Counter
