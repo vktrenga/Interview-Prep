@@ -251,10 +251,7 @@ say_hello()
 Before function
 Hello!
 After function
-```
-Perfect! Let’s continue with **more Python basic interview questions**, explained deeply so you understand both the “what” and the “why.” I’ll keep the style consistent: question → answer → deep explanation.
 
----
 
 ### **11. How do you comment in Python?**
 
@@ -597,11 +594,6 @@ print(d.get("country", "Not Found"))  # Not Found
 ```python
 squared = {x: x*x for x in range(5)}
 print(squared)  # {0:0,1:1,2:4,3:9,4:16}
-```
-
-Perfect! Let’s continue with **Python interview questions 25–35**, with deep explanations, practical examples, and interview-ready insights.
-
----
 
 ### **25. What are Python sets?**
 
@@ -1614,9 +1606,6 @@ print(p.name)  # Alice
 * Can assign **default parameters**
 * Used for **setting up instance variables**
 
-Perfect! Let’s continue with **Python intermediate questions 61–75**, with deep explanations, examples, and interview insights. These will cover OOP, file handling, exceptions, iterators, and intermediate Python concepts.
-
----
 
 ### **61. What is Python `__str__` and `__repr__`?**
 
@@ -1997,10 +1986,6 @@ func()
 
 
 ## Advanced Topics
-Perfect! Let’s dive into **Python advanced topics, questions 76–100**, with **deep explanations, practical examples, and interview-ready insights**. This will cover **advanced OOP, metaclasses, decorators, context managers, threading, multiprocessing, async, regex, serialization, memory management, and Python internals**.
-
----
-
 ### **76. What is Python multithreading?**
 
 **Answer:** Python threads allow **concurrent execution** within a process.
@@ -2552,9 +2537,6 @@ print(hasattr(t,'y'))  # False
 
 
 
-## Coding Challenges
-Perfect! Let’s start with **Python coding challenges 1–10**, designed to test your problem-solving skills and intermediate-level Python knowledge. I’ll provide **problem statements, detailed solutions, explanations, and example runs** so they’re interview-ready.
-
 ---
 
 ## **Challenge 1: Reverse a string**
@@ -2827,11 +2809,7 @@ print(flatten(nested))  # [1,2,3,4,5,6]
 * `isinstance(item, list)` checks for sublists
 * Interviewers like **recursive list problems** to test logic
 
----
 
-Perfect! Let’s continue with **Python coding challenges 11–20**, focusing on **intermediate problem-solving, dictionary/list manipulation, and algorithmic thinking**. I’ll provide **problem statements, solutions, explanations, and example runs** for each.
-
----
 
 ## **Challenge 11: Count the frequency of elements in a list**
 
@@ -3064,12 +3042,6 @@ print(is_sorted([1,3,2]))    # False
 * Use `all()` with generator expression for O(n) check
 * Avoids creating extra lists
 * Useful in **validation and optimization problems**
-
----
-
-Perfect! Let’s continue with **Python coding challenges 21–30**, focusing on **recursion, dictionaries, strings, and list manipulation**—all practical for interviews. I’ll include **problem statements, detailed solutions, explanations, and example runs**.
-
----
 
 ## **Challenge 21: Reverse words in a string**
 
@@ -3314,11 +3286,7 @@ print(is_subset([1,4],[1,2,3]))  # False
 * Efficient and readable
 * Useful in **permission checks, validation, and data comparison**
 
----
 
-Perfect! Let’s continue with **Python coding challenges 31–40**, focusing on **intermediate problems with recursion, lists, strings, dictionaries, and algorithms**. I’ll provide **problem statements, solutions, explanations, and example runs**—all interview-ready.
-
----
 
 ## **Challenge 31: Find all subsets of a list**
 
@@ -3548,11 +3516,6 @@ print(q.dequeue())  # 1
 * Queue → FIFO (First In First Out)
 * `pop(0)` removes first element (O(n) → for large scale, use `collections.deque`)
 * Common in **task scheduling and buffering**
-
----
-Perfect! Let’s continue with **Python coding challenges 41–50**, focusing on **lists, dictionaries, strings, algorithms, and intermediate problem-solving**. Each challenge includes **problem statements, solutions, explanations, and example runs**—interview-ready.
-
----
 
 ## **Challenge 41: Remove duplicates from a string**
 
