@@ -8,7 +8,7 @@ This document contains a curated list of Python interview questions, covering a 
 | Basics            | [Go to Basics](#basics)                      |
 | Intermediate      | [Go to All Intermediate Questions](#all-intermediate-questions) |
 | Advanced          | [Go to Advanced Topics](#advanced-topics)    |
-| Coding Challenges | [Go to Coding Challenges](#code-challenges)|
+| Coding Challenges | [Go to Coding Challenges](#Coding-Challenges)|
 
 ---
 
