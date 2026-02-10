@@ -4,5 +4,6 @@ This repository contains code and resources related to interview preparation or 
 
 ## Structure
 - [Python Interview Questions](python-interview-questions.md)
+- [Django Interview Questions](django-interview-questions.md)
 
 
